@@ -1,0 +1,89 @@
+body {
+	background-color: #eeeeee;
+}
+
+.card {
+	width: 1200px;
+	height: 1200px;
+	margin: 50px;
+	background-color: white;
+	background-size: contain;
+}
+/* Заголовок */
+.card__name {
+	font-size: 25px;
+	font-family: "Raleway";
+	color: #303030;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* Лінія */
+.card__name--line {
+	background-image: url(images/line.png);
+	margin: auto;
+	width: 220px;
+	height: 17px;
+}
+/* Субзаголовок */
+.card__subname {
+	font-size: 20px;
+	font-family: "Raleway";
+	color: rgb(48, 48, 48);
+	text-align: center;
+	padding-bottom: 30px;
+}
+.card__subname--p {
+	font-weight: 200;
+}
+/* Зображення продуктів */
+.card__products {
+	left: 70px;
+	bottom: 50px;
+}
+/* Колонки */
+.card__products--col {
+	left: 120px;
+	top: 360px;
+	float: left;
+	margin-left: 70px;
+	width: 690px;
+	height: 390px;
+	margin-bottom: 35px;
+}
+/* Навушники */
+.card__products--earph {
+	float: right;
+	height: 390px;
+	margin-right: 70px;
+	margin-bottom: 35px;
+}
+/* Червоний фон / Пульсометр */
+.card__products--text {
+	background-color: red;
+	float: left;
+	width: 325px;
+	height: 386px;
+	margin-left: 70px;
+}
+.card__products--text:hover {
+	background-image: url(images/text2-img.png);
+}
+/* Текст на червоному фоні */
+.card__products--ptext {
+	font-size: 30px;
+	font-family: "Raleway";
+	color: white;
+	margin-left: 30px;
+	margin-top: 250px;
+}
+/* Взуття */
+.card__products--shoe {
+	margin-left: 30px;
+}
+/* Стілець */
+.card__products--chair {
+	float: right;
+	height: 390px;
+	margin-right: 70px;
+}
